@@ -1,0 +1,40 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.logo {
+  color: #66cdaa;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.logo #title {
+  padding: 0 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  flex-wrap: wrap;
+}
+
+.menu .category {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu a {
+  color: #000000;
+}
