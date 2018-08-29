@@ -67,11 +67,27 @@
   width: 630px;
 }
 
+  div.mother {
+    background-image: url("../images/img-story-main.png");
+  }
+
+  div.spin {
+    background-image: url("../images/img-story-2.png");
+  }
+
+  div.cameras {
+    background-image: url("../images/img-story-3.png");
+  }
+
 .column.medium {
   display: flex;
   flex-direction: column;
   width: 300px;
 }
+
+  div.cats {
+    background-image: url("../images/img-story-1.png");
+  }
 
 .column.small {
   display: flex;
@@ -79,7 +95,33 @@
   width: 240px;
 }
 
+div.image {
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  align-content: flex-start;
+}
 
+p.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: #000000;
+}
+
+p.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFFFFF;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+}
+
+p#main {
+  font-size: 40px;
+  text-align: left;
+}
 
 
 
