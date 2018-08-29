@@ -48,18 +48,15 @@
 
 /* style of the container*/
 
-.container div {
-  border: 1px solid black;
-}
-
 .container {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
   position: relative;
   top: 100px;
   flex-wrap: wrap;
 }
+
+/* first column style*/
 
 .column.large {
   display: flex;
@@ -96,6 +93,10 @@
     margin-bottom: 5px;
   }
 
+  /* end of first column style*/
+
+  /* second column style*/
+
 .column.medium {
   display: flex;
   flex-direction: column;
@@ -107,11 +108,39 @@
     margin-top: 10px;
   }
 
+  /* end of second column style*/
+
+  /* third column style*/
+
 .column.small {
   display: flex;
   flex-direction: column;
   width: 240px;
 }
+
+  h2.news {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .news_bites {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bites {
+    display: inline-block;
+    margin: 0 0;
+    padding: 15px 15px;
+    background-color: #F5F5F5;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #696969;
+    border-bottom: 1px solid #000000;
+  }
+
+  /* end of third column style*/
 
 div.image {
   display: flex;
@@ -131,7 +160,6 @@ p.headline {
   font-weight: bold;
   font-size: 30px;
   color: #FFFFFF;
-  border: 1px solid black;
   margin: 0;
   text-align: center;
 }
