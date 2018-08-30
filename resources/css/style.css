@@ -1,4 +1,4 @@
-/* style of the header*/
+/* header*/
 
 .header {
   font-family: Verdana;
@@ -13,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   border: 2px solid black;
-  z-index: 2;
+  z-index: 3;
   background-color: #FFFFFF;
 }
 
@@ -44,19 +44,20 @@
   color: #000000;
 }
 
-/* end of the style of the header*/
+/* end the header*/
 
-/* style of the container*/
+/* container*/
 
 .container {
   display: flex;
   justify-content: space-around;
   position: relative;
   top: 100px;
+  bottom: 300px;
   flex-wrap: wrap;
 }
 
-/* first column style*/
+/* first column */
 
 .column.large {
   display: flex;
@@ -74,7 +75,7 @@
     display: inline-block;
     flex-basis: 299px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   div.cameras {
@@ -82,7 +83,7 @@
     display: inline-block;
     flex-basis: 299px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   div.orca,
@@ -93,9 +94,9 @@
     margin-bottom: 5px;
   }
 
-  /* end of first column style*/
+  /* end of first column */
 
-  /* second column style*/
+  /* second column */
 
 .column.medium {
   display: flex;
@@ -108,9 +109,9 @@
     margin-top: 10px;
   }
 
-  /* end of second column style*/
+  /* end of second column */
 
-  /* third column style*/
+  /* third column */
 
 .column.small {
   display: flex;
@@ -140,7 +141,7 @@
     border-bottom: 1px solid #000000;
   }
 
-  /* end of third column style*/
+  /* end of third column */
 
 div.image {
   display: flex;
@@ -169,12 +170,43 @@ p#main {
   text-align: left;
 }
 
+/* end the container*/
 
+/* footer*/
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #66CDAA;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  position: relative;
+  bottom: -100px;
+  height: 200px;
+}
 
+.link {
+  margin: 0 10px;
+}
 
+p.link {
+  display: inline-block;
+  padding: 10px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
 
+div.nav {
+  display: inline-block;
+}
 
+.link a {
+  color: #000000;
+}
 
-
-/* end of the style of the container*/
+/* end of the footer*/
